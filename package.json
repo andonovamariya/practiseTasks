@@ -1,0 +1,23 @@
+{
+  "name": "practisetasks",
+  "version": "1.0.0",
+  "description": "JavaScript practise tasks",
+  "main": "beautifulDay.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andonovamariya/practiseTasks.git"
+  },
+  "author": "Mariya Andonova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andonovamariya/practiseTasks/issues"
+  },
+  "homepage": "https://github.com/andonovamariya/practiseTasks#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

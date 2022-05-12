@@ -1,9 +1,9 @@
 // Link to task: https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
-const N_VALUE = 6;
+const N_VALUE:number = 6;
 
-function staircase(n) {
+function staircase(n: number): string {
   if (n > 0 && n <= 100) {
-    let row = "";
+    let row: string = "";
     for (let i = 1; i <= n; i++) {
       for (let j = n - 1; j >= i; j--) {
         row += " ";
